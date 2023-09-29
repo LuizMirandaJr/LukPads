@@ -83,6 +83,7 @@ main h2 {
     gap: 40px;
     align-items: center;
     justify-content: space-between;
+    padding: 0 80px;
 }
 
 .mousepads-gamers a {
@@ -96,10 +97,13 @@ main h2 {
     padding: 12px;
     border: solid #fff 1.5px;
     border-radius: 28px;
+    display: grid;
+    align-items: center;
 }
 
 .mousepads-gamers p {
     font-size: 24px;
+    max-width: 300px;
 }
 
 .mousepads-gamers h3 {
